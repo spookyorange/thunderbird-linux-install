@@ -22,7 +22,7 @@ sh ./uninstall.sh
 
 ```
 
-Updates are handled by running the install script again, you can just run the install script and all good!
+Updates are handled by changing the version number and running install.sh again, please change the version from inside the install.sh and run it again. If you wish to contribute to the project, whenever a new version comes out, you may open an issue or create a pull request!
 
 ```bash
 
@@ -34,9 +34,9 @@ sh ./install.sh
 
 The script will install the application in the following destinations if you have installed locally:
 
-- ~/.tarball-installations/firefox
-- ~/.local/bin/firefox
-- ~/.local/share/applications/firefox.desktop
+- ~/.tarball-installations/thunderbird
+- ~/.local/bin/thunderbird
+- ~/.local/share/applications/thunderbird.desktop
 
 ## Tested Distros
 
